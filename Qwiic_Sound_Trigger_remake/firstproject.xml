@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/leonardzhang/Documents/firstproject/firstproject.kicad_sch</source>
+    <date>2023 April 09, Sunday 14:02:08</date>
+    <tool>Eeschema 7.0.1-0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>firstproject.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="DIGIKEY_PART">1276-1043-2-ND</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05A104KA5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIGIKEY_PART" value="1276-1043-2-ND"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05A104KA5NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="firstproject.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0bef74f7-9853-4595-988c-a43f9097ba96</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="DIGIKEY_PART">1276-1076-2-ND</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05A105KP5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIGIKEY_PART" value="1276-1076-2-ND"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05A105KP5NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="firstproject.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee43b1c1-d39a-4b36-b9ea-c0788493fff4</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>POWER</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIGIKEY_PART">160-1447-2-ND</field>
+        <field name="MANUFACTURER">Lite-on Inc</field>
+        <field name="MPN">LTST-C191KRKT</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="DIGIKEY_PART" value="160-1447-2-ND"/>
+      <property name="MANUFACTURER" value="Lite-on Inc"/>
+      <property name="MPN" value="LTST-C191KRKT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="firstproject.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>805842b6-d7a5-49b5-8488-9b8956482159</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>TRIG</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIGIKEY_PART">160-1446-2-ND</field>
+        <field name="MANUFACTURER">Lite-on Inc</field>
+        <field name="MPN">LTST-C191KGKT</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="DIGIKEY_PART" value="160-1446-2-ND"/>
+      <property name="MANUFACTURER" value="Lite-on Inc"/>
+      <property name="MPN" value="LTST-C191KGKT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="firstproject.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dca3d2bc-1eb3-4323-89fe-69a909c4a042</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="firstproject.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd24b3f2-ad85-45ab-8e05-011c033f9021</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x05_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="firstproject.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f69995e-9550-4953-9e3c-c96e4907d076</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>WOS</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="firstproject.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5959350c-d8fd-4cdf-ae13-c51380a89924</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>THRES</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="firstproject.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2eb0d505-9e34-43cd-aae6-32616825f11b</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>POWER_EN</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="firstproject.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d59234de-17ab-44e1-9679-fbd5c40aca8b</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>TRIG_EN</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="firstproject.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a688c01-31de-4375-ad8e-486264c43d21</tstamps>
+    </comp>
+    <comp ref="MK1">
+      <value>PMM-3738-VM1010-R</value>
+      <footprint>PMM-3738-VM1010-R:MIC_PMM-3738-VM1010-R</footprint>
+      <fields>
+        <field name="DIGIKEY_PART">668-1585-2-ND</field>
+        <field name="MANUFACTURER">PUI Audio</field>
+        <field name="MPN">PMM-3738-VM1010-R</field>
+      </fields>
+      <libsource lib="PMM-3738-VM1010-R" part="PMM-3738-VM1010-R" description=""/>
+      <property name="STANDARD" value=""/>
+      <property name="MANUFACTURER" value="PUI Audio"/>
+      <property name="PARTREV" value=""/>
+      <property name="DIGIKEY_PART" value="668-1585-2-ND"/>
+      <property name="MPN" value="PMM-3738-VM1010-R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="firstproject.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05373bf6-c6f2-466b-a649-f451b630d701</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="DIGIKEY_PART">YAG3536TR-ND</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MPN">AC0402JR-072K2L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DIGIKEY_PART" value="YAG3536TR-ND"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="MPN" value="AC0402JR-072K2L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="firstproject.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cdd9d03-5058-442b-9528-1f58fdd27456</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="DIGIKEY_PART">YAG1388TR-ND</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MPN">RT0402BRD0720KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DIGIKEY_PART" value="YAG1388TR-ND"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="MPN" value="RT0402BRD0720KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="firstproject.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0b8bd0b-b9ac-4a05-be7e-6d401d5876dd</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="DIGIKEY_PART">YAG2306TR-ND</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MPN">RT0402BRE071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DIGIKEY_PART" value="YAG2306TR-ND"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="MPN" value="RT0402BRE071KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="firstproject.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21aa99f1-4ac9-468a-9a41-440f6a98a554</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="DIGIKEY_PART">YAG2306TR-ND</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MPN">RT0402BRE071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DIGIKEY_PART" value="YAG2306TR-ND"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="MPN" value="RT0402BRE071KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="firstproject.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9eb57c87-0554-406d-beac-47ded3df4c8a</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>EVPBB4A9B000</value>
+      <footprint>SW_EVPBB4A9B000</footprint>
+      <fields>
+        <field name="DIGIKEY_PART">P19888CT-ND</field>
+        <field name="MANUFACTURER">Panasonic Electronic</field>
+        <field name="MPN">EVPBB4A9B000</field>
+      </fields>
+      <libsource lib="EVPBB4A9B000" part="EVPBB4A9B000" description=""/>
+      <property name="MANUFACTURER" value="Panasonic Electronic"/>
+      <property name="MPN" value="EVPBB4A9B000"/>
+      <property name="DIGIKEY_PART" value="P19888CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="firstproject.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d1fb625-7937-4fa2-a440-55f32d5d99ce</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>2N7002PW,115</value>
+      <footprint>2N7002PW_115:SOT65P210X110-3N</footprint>
+      <fields>
+        <field name="DIGIKEY_PART">1727-4793-2-ND</field>
+        <field name="MANUFACTURER">Nexperia USA Inc.</field>
+        <field name="MPN">2N7002PW,115</field>
+      </fields>
+      <libsource lib="2N7002PW_115" part="2N7002PW,115" description=""/>
+      <property name="OC_NEWARK" value=""/>
+      <property name="OC_FARNELL" value=""/>
+      <property name="SUPPLIER" value=""/>
+      <property name="MPN" value="2N7002PW,115"/>
+      <property name="DIGIKEY_PART" value="1727-4793-2-ND"/>
+      <property name="MANUFACTURER" value="Nexperia USA Inc."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="firstproject.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0dd3539f-04d8-4f94-85e9-300604c352d4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2N7002PW_115" part="2N7002PW,115">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">2N7002PW,115</field>
+        <field name="Footprint">SOT65P210X110-3N</field>
+        <field name="PACKAGE">SOT-3</field>
+        <field name="OC_NEWARK">55T7739</field>
+        <field name="OC_FARNELL">1894713</field>
+        <field name="SUPPLIER">NXP Semiconductors</field>
+        <field name="MPN">2N7002PW,115</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GATE" type="passive"/>
+        <pin num="2" name="SOURCE" type="passive"/>
+        <pin num="3" name="DRAIN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Pin">
+      <description>Generic connector, single row, 01x05, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EVPBB4A9B000" part="EVPBB4A9B000">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">EVPBB4A9B000</field>
+        <field name="Footprint">SW_EVPBB4A9B000</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.58mm</field>
+        <field name="MP">EVPBB4A9B000</field>
+        <field name="DESCRIPTION">Tactile Switch SPST-NO Top Actuated Surface Mount</field>
+        <field name="ARROW_ELECTRONICS-PURCHASE-URL">https://snapeda.com/shop?store=Arrow+Electronics&amp;id=584571</field>
+        <field name="PACKAGE">None</field>
+        <field name="MF">Panasonic Electronic</field>
+        <field name="DIGIKEY-PURCHASE-URL">https://snapeda.com/shop?store=DigiKey&amp;id=584571</field>
+        <field name="MOUSER-PURCHASE-URL">https://snapeda.com/shop?store=Mouser&amp;id=584571</field>
+        <field name="DIGI-KEY_PART_NUMBER">P19888CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="" type="passive"/>
+        <pin num="A2" name="" type="passive"/>
+        <pin num="B1" name="" type="passive"/>
+        <pin num="B2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PMM-3738-VM1010-R" part="PMM-3738-VM1010-R">
+      <fields>
+        <field name="Reference">MK</field>
+        <field name="Value">PMM-3738-VM1010-R</field>
+        <field name="Footprint">MIC_PMM-3738-VM1010-R</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.4 mm</field>
+        <field name="MANUFACTURER">PUI Audio</field>
+        <field name="PARTREV">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="output"/>
+        <pin num="2" name="GA2" type="input"/>
+        <pin num="3" name="GA1" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="MODE" type="input"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="DOUT" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2N7002PW_115">
+      <uri>/Users/leonardzhang/Downloads/2N7002PW_115/2N7002PW_115.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="EVPBB4A9B000">
+      <uri>/Users/leonardzhang/Downloads/EVPBB4A9B000/EVPBB4A9B000.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="PMM-3738-VM1010-R">
+      <uri>/Users/leonardzhang/Downloads/PMM-3738-VM1010-R/PMM-3738-VM1010-R.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="AUDIO">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="MK1" pin="1" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="2" name="GA1">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="MK1" pin="3" pinfunction="GA1" pintype="input"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="GA2">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="MK1" pin="2" pinfunction="GA2" pintype="input"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="MK1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="MK1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="S1" pin="B1" pintype="passive"/>
+      <node ref="S1" pin="B2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="SOURCE" pintype="passive"/>
+    </net>
+    <net code="5" name="MODE">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="MK1" pin="5" pinfunction="MODE" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="S1" pin="A1" pintype="passive"/>
+      <node ref="S1" pin="A2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="DRAIN" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(JP1-A)">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(JP2-A)">
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(JP3-A)">
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(JP4-A)">
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="TRIG">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MK1" pin="7" pinfunction="DOUT" pintype="output"/>
+      <node ref="U1" pin="1" pinfunction="GATE" pintype="passive"/>
+    </net>
+    <net code="14" name="VCC">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="MK1" pin="6" pinfunction="VDD" pintype="power_in"/>
+    </net>
+  </nets>
+</export>

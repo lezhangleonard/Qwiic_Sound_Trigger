@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "vm1010")(type "KiCad")(uri "/Users/leonardzhang/Downloads/VM1010/VM1010.kicad_sym")(options "")(descr ""))
+  (lib (name "TL3301AF160QG")(type "KiCad")(uri "/Users/leonardzhang/Downloads/TL3301AF160QG/TL3301AF160QG.kicad_sym")(options "")(descr ""))
+  (lib (name "EVPBB4A9B000")(type "KiCad")(uri "/Users/leonardzhang/Downloads/EVPBB4A9B000/EVPBB4A9B000.kicad_sym")(options "")(descr ""))
+)

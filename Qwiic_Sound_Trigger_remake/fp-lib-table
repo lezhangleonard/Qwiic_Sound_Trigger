@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "2N7002PW_115")(type "KiCad")(uri "/Users/leonardzhang/Downloads/2N7002PW_115")(options "")(descr "NMOS"))
+  (lib (name "PMM-3738-VM1010-R")(type "KiCad")(uri "/Users/leonardzhang/Downloads/PMM-3738-VM1010-R")(options "")(descr ""))
+  (lib (name "TL3301AF160QG")(type "KiCad")(uri "/Users/leonardzhang/Downloads/TL3301AF160QG")(options "")(descr ""))
+  (lib (name "EVPBB4A9B000")(type "KiCad")(uri "/Users/leonardzhang/Downloads/EVPBB4A9B000")(options "")(descr ""))
+)
